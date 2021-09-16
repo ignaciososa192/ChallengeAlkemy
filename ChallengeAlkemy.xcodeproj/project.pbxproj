@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AE1B379D0D85054E7B9D3B4 /* Pods_ChallengeAlkemy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E425856C34D3A5FCDCBAED0 /* Pods_ChallengeAlkemy.framework */; };
+		811FCD6B26EFEBBF0037CBEC /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811FCD6926EFEBBF0037CBEC /* FavoritesTableViewCell.swift */; };
+		811FCD6C26EFEBBF0037CBEC /* FavoritesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 811FCD6A26EFEBBF0037CBEC /* FavoritesTableViewCell.xib */; };
+		811FCD7126EFED8E0037CBEC /* API Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811FCD7026EFED8E0037CBEC /* API Service.swift */; };
+		811FCD7326F01C5E0037CBEC /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811FCD7226F01C5E0037CBEC /* MoviesViewModel.swift */; };
+		811FCD7726F14A530037CBEC /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811FCD7526F14A530037CBEC /* MovieDetailViewController.swift */; };
+		811FCD7826F14A530037CBEC /* MovieDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 811FCD7626F14A530037CBEC /* MovieDetailViewController.xib */; };
+		81419D0326E959B100325687 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81419D0226E959B100325687 /* AppDelegate.swift */; };
+		81419D0526E959B100325687 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81419D0426E959B100325687 /* SceneDelegate.swift */; };
+		81419D0C26E959B300325687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81419D0B26E959B300325687 /* Assets.xcassets */; };
+		81419D0F26E959B300325687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81419D0D26E959B300325687 /* LaunchScreen.storyboard */; };
+		81419D1826E95A6300325687 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81419D1626E95A6300325687 /* LogInViewController.swift */; };
+		81419D1926E95A6300325687 /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81419D1726E95A6300325687 /* LogInViewController.xib */; };
+		81419D2026ED298900325687 /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81419D1E26ED298900325687 /* FavoritesTableViewController.swift */; };
+		81419D2126ED298900325687 /* FavoritesTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81419D1F26ED298900325687 /* FavoritesTableViewController.xib */; };
+		81419D2426ED2BAD00325687 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81419D2226ED2BAD00325687 /* MoviesTableViewController.swift */; };
+		81419D2526ED2BAD00325687 /* MoviesTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81419D2326ED2BAD00325687 /* MoviesTableViewController.xib */; };
+		81419D2826ED2D5E00325687 /* MoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81419D2626ED2D5E00325687 /* MoviesTableViewCell.swift */; };
+		81419D2926ED2D5E00325687 /* MoviesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81419D2726ED2D5E00325687 /* MoviesTableViewCell.xib */; };
+		81419D2B26ED3B6E00325687 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81419D2A26ED3B6E00325687 /* Model.swift */; };
+		81419D3026ED6CC900325687 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81419D2F26ED6CC900325687 /* TabBarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16583E046452F6674666DE9B /* Pods-ChallengeAlkemy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeAlkemy.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeAlkemy/Pods-ChallengeAlkemy.debug.xcconfig"; sourceTree = "<group>"; };
+		3E425856C34D3A5FCDCBAED0 /* Pods_ChallengeAlkemy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChallengeAlkemy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4913E2A62308CD4C769A1FE0 /* Pods-ChallengeAlkemy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeAlkemy.release.xcconfig"; path = "Target Support Files/Pods-ChallengeAlkemy/Pods-ChallengeAlkemy.release.xcconfig"; sourceTree = "<group>"; };
+		811FCD6926EFEBBF0037CBEC /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
+		811FCD6A26EFEBBF0037CBEC /* FavoritesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesTableViewCell.xib; sourceTree = "<group>"; };
+		811FCD7026EFED8E0037CBEC /* API Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API Service.swift"; sourceTree = "<group>"; };
+		811FCD7226F01C5E0037CBEC /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
+		811FCD7526F14A530037CBEC /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		811FCD7626F14A530037CBEC /* MovieDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieDetailViewController.xib; sourceTree = "<group>"; };
+		81419CFF26E959B100325687 /* ChallengeAlkemy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeAlkemy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81419D0226E959B100325687 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81419D0426E959B100325687 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		81419D0B26E959B300325687 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81419D0E26E959B300325687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81419D1026E959B300325687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81419D1626E95A6300325687 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		81419D1726E95A6300325687 /* LogInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogInViewController.xib; sourceTree = "<group>"; };
+		81419D1E26ED298900325687 /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
+		81419D1F26ED298900325687 /* FavoritesTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesTableViewController.xib; sourceTree = "<group>"; };
+		81419D2226ED2BAD00325687 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
+		81419D2326ED2BAD00325687 /* MoviesTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviesTableViewController.xib; sourceTree = "<group>"; };
+		81419D2626ED2D5E00325687 /* MoviesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewCell.swift; sourceTree = "<group>"; };
+		81419D2726ED2D5E00325687 /* MoviesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviesTableViewCell.xib; sourceTree = "<group>"; };
+		81419D2A26ED3B6E00325687 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		81419D2F26ED6CC900325687 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81419CFC26E959B100325687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE1B379D0D85054E7B9D3B4 /* Pods_ChallengeAlkemy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C7964D498A9A87F41A5A568 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E425856C34D3A5FCDCBAED0 /* Pods_ChallengeAlkemy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C098FF6D9E551EAE6DCE068 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16583E046452F6674666DE9B /* Pods-ChallengeAlkemy.debug.xcconfig */,
+				4913E2A62308CD4C769A1FE0 /* Pods-ChallengeAlkemy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		811FCD6826EFEA800037CBEC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				81419D2626ED2D5E00325687 /* MoviesTableViewCell.swift */,
+				81419D2726ED2D5E00325687 /* MoviesTableViewCell.xib */,
+				811FCD6926EFEBBF0037CBEC /* FavoritesTableViewCell.swift */,
+				811FCD6A26EFEBBF0037CBEC /* FavoritesTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		811FCD6D26EFED5A0037CBEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				81419D2A26ED3B6E00325687 /* Model.swift */,
+				811FCD7026EFED8E0037CBEC /* API Service.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		811FCD7426F0F4B60037CBEC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				811FCD7226F01C5E0037CBEC /* MoviesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		81419CF626E959B100325687 = {
+			isa = PBXGroup;
+			children = (
+				81419D0126E959B100325687 /* ChallengeAlkemy */,
+				81419D0026E959B100325687 /* Products */,
+				3C098FF6D9E551EAE6DCE068 /* Pods */,
+				1C7964D498A9A87F41A5A568 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81419D0026E959B100325687 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81419CFF26E959B100325687 /* ChallengeAlkemy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81419D0126E959B100325687 /* ChallengeAlkemy */ = {
+			isa = PBXGroup;
+			children = (
+				811FCD7426F0F4B60037CBEC /* ViewModel */,
+				811FCD6D26EFED5A0037CBEC /* Model */,
+				811FCD6826EFEA800037CBEC /* Cells */,
+				81419D2C26ED468200325687 /* Application */,
+			);
+			path = ChallengeAlkemy;
+			sourceTree = "<group>";
+		};
+		81419D2C26ED468200325687 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8181A50226F2DF8B00D7A7B2 /* View */,
+				81419D0226E959B100325687 /* AppDelegate.swift */,
+				81419D0426E959B100325687 /* SceneDelegate.swift */,
+				81419D0B26E959B300325687 /* Assets.xcassets */,
+				81419D0D26E959B300325687 /* LaunchScreen.storyboard */,
+				81419D1026E959B300325687 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8181A50226F2DF8B00D7A7B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81419D2F26ED6CC900325687 /* TabBarViewController.swift */,
+				81419D1626E95A6300325687 /* LogInViewController.swift */,
+				81419D1726E95A6300325687 /* LogInViewController.xib */,
+				81419D1E26ED298900325687 /* FavoritesTableViewController.swift */,
+				81419D1F26ED298900325687 /* FavoritesTableViewController.xib */,
+				81419D2226ED2BAD00325687 /* MoviesTableViewController.swift */,
+				81419D2326ED2BAD00325687 /* MoviesTableViewController.xib */,
+				811FCD7526F14A530037CBEC /* MovieDetailViewController.swift */,
+				811FCD7626F14A530037CBEC /* MovieDetailViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81419CFE26E959B100325687 /* ChallengeAlkemy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81419D1326E959B300325687 /* Build configuration list for PBXNativeTarget "ChallengeAlkemy" */;
+			buildPhases = (
+				255BD7F8F507A251210CC176 /* [CP] Check Pods Manifest.lock */,
+				81419CFB26E959B100325687 /* Sources */,
+				81419CFC26E959B100325687 /* Frameworks */,
+				81419CFD26E959B100325687 /* Resources */,
+				9BD0C5E56D827AFBDD20A7F9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChallengeAlkemy;
+			productName = ChallengeAlkemy;
+			productReference = 81419CFF26E959B100325687 /* ChallengeAlkemy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81419CF726E959B100325687 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					81419CFE26E959B100325687 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 81419CFA26E959B100325687 /* Build configuration list for PBXProject "ChallengeAlkemy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81419CF626E959B100325687;
+			productRefGroup = 81419D0026E959B100325687 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81419CFE26E959B100325687 /* ChallengeAlkemy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81419CFD26E959B100325687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811FCD7826F14A530037CBEC /* MovieDetailViewController.xib in Resources */,
+				81419D1926E95A6300325687 /* LogInViewController.xib in Resources */,
+				811FCD6C26EFEBBF0037CBEC /* FavoritesTableViewCell.xib in Resources */,
+				81419D0F26E959B300325687 /* LaunchScreen.storyboard in Resources */,
+				81419D0C26E959B300325687 /* Assets.xcassets in Resources */,
+				81419D2926ED2D5E00325687 /* MoviesTableViewCell.xib in Resources */,
+				81419D2526ED2BAD00325687 /* MoviesTableViewController.xib in Resources */,
+				81419D2126ED298900325687 /* FavoritesTableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		255BD7F8F507A251210CC176 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChallengeAlkemy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BD0C5E56D827AFBDD20A7F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeAlkemy/Pods-ChallengeAlkemy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeAlkemy/Pods-ChallengeAlkemy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChallengeAlkemy/Pods-ChallengeAlkemy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81419CFB26E959B100325687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81419D2426ED2BAD00325687 /* MoviesTableViewController.swift in Sources */,
+				81419D1826E95A6300325687 /* LogInViewController.swift in Sources */,
+				811FCD7126EFED8E0037CBEC /* API Service.swift in Sources */,
+				811FCD7726F14A530037CBEC /* MovieDetailViewController.swift in Sources */,
+				81419D2026ED298900325687 /* FavoritesTableViewController.swift in Sources */,
+				81419D3026ED6CC900325687 /* TabBarViewController.swift in Sources */,
+				811FCD6B26EFEBBF0037CBEC /* FavoritesTableViewCell.swift in Sources */,
+				811FCD7326F01C5E0037CBEC /* MoviesViewModel.swift in Sources */,
+				81419D0326E959B100325687 /* AppDelegate.swift in Sources */,
+				81419D2826ED2D5E00325687 /* MoviesTableViewCell.swift in Sources */,
+				81419D0526E959B100325687 /* SceneDelegate.swift in Sources */,
+				81419D2B26ED3B6E00325687 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81419D0D26E959B300325687 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81419D0E26E959B300325687 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81419D1126E959B300325687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81419D1226E959B300325687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81419D1426E959B300325687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16583E046452F6674666DE9B /* Pods-ChallengeAlkemy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChallengeAlkemy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lucianaSorbelli.ChallengeAlkemy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81419D1526E959B300325687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4913E2A62308CD4C769A1FE0 /* Pods-ChallengeAlkemy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChallengeAlkemy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lucianaSorbelli.ChallengeAlkemy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81419CFA26E959B100325687 /* Build configuration list for PBXProject "ChallengeAlkemy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81419D1126E959B300325687 /* Debug */,
+				81419D1226E959B300325687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81419D1326E959B300325687 /* Build configuration list for PBXNativeTarget "ChallengeAlkemy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81419D1426E959B300325687 /* Debug */,
+				81419D1526E959B300325687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81419CF726E959B100325687 /* Project object */;
+}
