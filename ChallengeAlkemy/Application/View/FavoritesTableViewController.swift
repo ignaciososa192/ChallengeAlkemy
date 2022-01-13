@@ -23,6 +23,11 @@ class FavoritesTableViewController: UIViewController, UITableViewDataSource, UIT
         self.favoritesTableView.register(UINib(nibName: "FavoritesTableViewCell", bundle: nil), forCellReuseIdentifier: "FavoritesTableViewCell")
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+            self.navigationController?.navigationBar.isHidden = true
+            super.tabBarController?.title = "Favorites"
+        }
+    
     override func viewDidAppear(_ animated: Bool) {
         self.initFetchViewModel()
     }

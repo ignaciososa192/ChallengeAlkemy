@@ -2,7 +2,7 @@
 //  FavoritesTableViewCell.swift
 //  ChallengeAlkemy
 //
-//  Created by Lulu Sorbelli on 9/13/21.
+//  Created by Ignacio Sosa on 9/13/21.
 //
 
 import UIKit

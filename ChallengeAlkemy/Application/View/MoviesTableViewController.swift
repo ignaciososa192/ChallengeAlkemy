@@ -12,7 +12,6 @@ class MoviesTableViewController: UIViewController, UITableViewDataSource, UITabl
     lazy var viewModel: MoviesViewModel = {
         return MoviesViewModel()
     }()
-    
     @IBOutlet weak var moviesTableView: UITableView!
     
     override func viewDidLoad() {
@@ -22,6 +21,11 @@ class MoviesTableViewController: UIViewController, UITableViewDataSource, UITabl
         initFetchViewModel()
         self.moviesTableView.register(UINib(nibName: "MoviesTableViewCell", bundle: nil), forCellReuseIdentifier: "MoviesTableViewCell")
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+            self.navigationController?.navigationBar.isHidden = true
+            super.tabBarController?.title = "Movies"
+        }
     
     func initFetchViewModel() {
         DispatchQueue.main.async {

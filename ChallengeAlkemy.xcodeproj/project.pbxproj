@@ -140,6 +140,11 @@
 				811FCD6D26EFED5A0037CBEC /* Model */,
 				811FCD6826EFEA800037CBEC /* Cells */,
 				81419D2C26ED468200325687 /* Application */,
+				81419D1026E959B300325687 /* Info.plist */,
+				81419D0226E959B100325687 /* AppDelegate.swift */,
+				81419D0426E959B100325687 /* SceneDelegate.swift */,
+				81419D0B26E959B300325687 /* Assets.xcassets */,
+				81419D0D26E959B300325687 /* LaunchScreen.storyboard */,
 			);
 			path = ChallengeAlkemy;
 			sourceTree = "<group>";
@@ -148,11 +153,6 @@
 			isa = PBXGroup;
 			children = (
 				8181A50226F2DF8B00D7A7B2 /* View */,
-				81419D0226E959B100325687 /* AppDelegate.swift */,
-				81419D0426E959B100325687 /* SceneDelegate.swift */,
-				81419D0B26E959B300325687 /* Assets.xcassets */,
-				81419D0D26E959B300325687 /* LaunchScreen.storyboard */,
-				81419D1026E959B300325687 /* Info.plist */,
 			);
 			path = Application;
 			sourceTree = "<group>";

@@ -9,9 +9,6 @@ import UIKit
 
 class TabBarViewController: UITabBarController {
 
-    // agregar boton de back y que vaya al rootViewController.
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViewControllers()

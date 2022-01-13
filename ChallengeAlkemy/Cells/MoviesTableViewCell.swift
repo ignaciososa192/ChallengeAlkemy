@@ -2,7 +2,7 @@
 //  MoviesTableViewCell.swift
 //  ChallengeAlkemy
 //
-//  Created by Lulu Sorbelli on 9/11/21.
+//  Created by Ignacio Sosa on 9/11/21.
 //
 
 import UIKit
